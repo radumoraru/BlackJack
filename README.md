@@ -21,3 +21,9 @@ There are no Prerequisites for this project as long as you have a **C compatible
 #### Clone this repo to your local machine using  https://github.com/radumoraru/Blackjack
 
 ---
+
+# Console Example
+
+![Alt Text](http://g.recordit.co/8FTAP7QfmK.gif)
+
+---
