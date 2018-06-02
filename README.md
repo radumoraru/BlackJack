@@ -31,7 +31,7 @@ Nu există cerințe preliminare pentru acest proiect cât timp există un  **IDE
 # Exemple din Cod
 
 
-**Functia de afisare a jucatorului curent**
+**Functia de afișare a jucătorului curent**
 ```C
 
 void afisare()  
@@ -87,6 +87,40 @@ void rezultate()
         fprintf(b,"%d %d %s\n",won,loss,prim->nume); //printăm în al doilea fișier
         fclose(b);
         fclose(f);
+}
+
+
+```
+**Functia de afisare a arborelui**
+```C
+void afisare_arb()
+{
+    FILE *f;
+    f=fopen("Rezultate.txt","w"); // deschidem fișierul de Rezultate
+    nod * tr; 
+    tr=radacina;
+    while(1)
+    {
+        if(tr->dreapta != NULL)
+            {
+                if(tr->won == tr->dreapta->won)
+                    fprintf(f,"%s este egal cu%s\n",tr->nume,tr->dreapta->nume);
+                    else
+                        fprintf(f,"%s este mai slab ca si %s\n",tr->nume,tr->dreapta->nume);
+                tr=tr->dreapta;
+            }
+        else if(tr->stanga != NULL)
+            {
+                if(tr->won == tr->stanga->won)
+                    fprintf(f,"%s este egal cu%s\n",tr->nume,tr->stanga->nume);
+                    else
+                        fprintf(f,"%s este mai bun ca si %s\n",tr->nume,tr->stanga->nume);
+                tr=tr->stanga;
+            }
+        if(tr->dreapta == tr->stanga)
+            break;
+    }
+
 }
 
 
