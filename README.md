@@ -30,9 +30,11 @@ Nu există cerințe preliminare pentru acest proiect cât timp există un  **IDE
 
 # Exemple din Cod
 
+
+**Functia de afisare a jucatorului curent**
 ```C
 
-void afisare()  //Functia de afisare a jucatorului curent
+void afisare()  
 {
     jucator *q;
     q=prim;
@@ -44,7 +46,7 @@ void afisare()  //Functia de afisare a jucatorului curent
 }
 
 ```
-
+**Functia de începere a jocului**
 ```C
 
 void startjoc()
@@ -67,7 +69,7 @@ void startjoc()
      pariere();
 
 ```
-
+**Functia de afisare a rezultatelor în fișier**
 ```C
 
 void rezultate()
