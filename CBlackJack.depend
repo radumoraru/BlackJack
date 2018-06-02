@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1527636095 source:f:\codeblocks\cblackjack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<process.h>
+	<math.h>
+	<time.h>
+	<string.h>
+
