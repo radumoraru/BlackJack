@@ -10,7 +10,7 @@
 * ### Instalare
 * ### Exemple din Consolă
 * ### Exemple din Cod
-* ### License
+* ### Licență
 
 ---
 # Instalare
@@ -88,9 +88,10 @@ void rezultate()
         fclose(b);
         fclose(f);
 }
-
-
 ```
+![Alt Text](http://g.recordit.co/JSkIF70y6J.gif)
+
+
 **Functia de afisare a arborelui**
 ```C
 void afisare_arb()
@@ -125,3 +126,7 @@ void afisare_arb()
 
 
 ```
+# Licență
+
+* **[MIT license](https://opensource.org/licenses/mit-license.php "MIT license")** 
+* Click mai sus pentru mai multe detalii
