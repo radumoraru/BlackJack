@@ -3,3 +3,21 @@
 
  [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://badges.mit-license.org/)
  [![NrOfPageVisits](http://hits.dwyl.io/RalucaMagdoiu/Minesweeper-ASD.svg)](http://hits.dwyl.io/radumoraru/BlackJack)
+
+---
+
+# Table of Contents 
+* ### Installation
+* ### Console Examples
+* ### Code Examples
+* ### License
+
+---
+# Installation
+
+There are no Prerequisites for this project as long as you have a **C compatible IDE**.
+
+
+#### Clone this repo to your local machine using  https://github.com/radumoraru/Blackjack
+
+---
